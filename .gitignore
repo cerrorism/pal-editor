@@ -1,0 +1,10 @@
+# Rust build artifacts
+/target/
+
+# Leftover build cache from old project location (safe to delete manually)
+/rust-editor/
+
+# Large zip / backup files
+*.zip
+*-bak.RPG
+*-bak*.RPG

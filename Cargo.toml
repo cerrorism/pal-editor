@@ -1,0 +1,18 @@
+[package]
+name = "pal-editor"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "pal-editor"
+path = "src/main.rs"
+
+[dependencies]
+eframe = { version = "0.31", features = ["default_fonts"] }
+egui = "0.31"
+rfd = "0.15"
+
+[profile.release]
+opt-level = 3
+lto = true
+strip = true
