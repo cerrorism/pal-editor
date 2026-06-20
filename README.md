@@ -70,5 +70,6 @@ Character order: 逍遙(0) 靈兒(1) 月如(2) 巫后(3) 阿奴(4) 不明(5)
 
 ## Credits
 
+- [chiuinan.github.io](https://chiuinan.github.io/game/) — save file format documentation; the binary offset table and skill/item catalogs in this editor are derived from [this PAL save editing guide](https://chiuinan.github.io/game/game/intro/ch/c11/pal/index.htm)
 - [jf 開放粉圓](https://github.com/justfont/open-huninn-font) — Traditional Chinese font by justfont, licensed under [SIL Open Font License 1.1](https://scripts.sil.org/OFL)
 - [egui](https://github.com/emilk/egui) / [eframe](https://github.com/emilk/egui/tree/master/crates/eframe) — immediate mode GUI framework for Rust
